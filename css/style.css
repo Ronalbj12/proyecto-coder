@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*!-------header------*/
+header{
+    background-color: rgb(23, 170, 207);
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+header nav div ul li{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+}
+
+
+
+/*!-------main index------*/
+
+
+.ofertas h2{
+    font-size: 60px;
+    color: rgb(252, 252, 255);
+    text-align: center;
+    background-color: black;
+    padding: 12px;
+}
+
+.ofertas > div{
+    background-color: aqua;
+    display: flex;
+    margin: 00px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.ofertas div div{
+    border: 1px solid black;
+    width: 300px;
+    height: 530px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 40px;
+}
+
+.ofertas div img{
+    width: 298px;
+    height:340px;
+}
+
+.ofertas div h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.boton{
+    text-decoration: none;
+    color: rgb(4, 39, 190);
+    background-color: rgb(14, 112, 224);
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.hero{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 60px;
+    padding: 12px;
+    margin: 00;
+}
+
+.hero div{
+    width: 50%;
+}
+
+.hero h4{
+    font-size: 60px;
+    color: rgb(252, 252, 255);
+    text-align: center;
+    background-color: black;
+    padding: 12px;
+}
+
+
+.hero div p{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.hero  img{
+    display: flex;
+    align-self: flex-end;
+    width: 500px;
+    height: 400px;
+}
+
+.ubicacion h4{
+    font-size: 60px;
+    color: brown;
+    text-align: center;
+}
+
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+main section form div h4 {
+    font-size: 60px;
+    color: red;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+.fixed img{
+    width: 50px;
+    height: 50px;
+}
+
+/*!-------css carniceria------*/
+
+
+.grid-carniceria {
+    background-color: rgb(83, 147, 151);
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+    justify-items: center;
+    align-items: center; 
+}
+
+.carniceria h2 {
+    font-size: 60px;
+    color: rgb(18, 18, 194);
+    text-align: center;
+    background-color: black;
+    padding: 2%;
+}
+
+.grid-carniceria .grid-item {
+    border: 1px solid rgba(255, 11, 11, 0.973);
+    width: 100%;
+    height: auto; 
+    text-align: center;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    margin: 40px;
+    padding: 20px;
+}
+
+.grid-carniceria div img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*!-------footer------*/
+
+footer{
+    background-color: rgb(43, 82, 87);
+    padding: 30px;
+}
+
+footer .footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+footer div h4{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+footer div div a img{
+    width: 55px;
+    height: 55px;
+}
+
+
+/*!-------media queris------*/
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    .ofertas h2 {
+        font-size: 40px;
+    }
+    .ofertas > div {
+        justify-content: center;
+    }
+    .ofertas div div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .ofertas div img {
+        width: 100%;
+        height: auto;
+    }
+    .boton {
+        font-size: 20px;
+    }
+    .hero h4 {
+        font-size: 40px;
+    }
+    .hero div p {
+        font-size: 20px;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    .ubicacion h4 {
+        font-size: 40px;
+    }
+    .mapa {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .ofertas h2 {
+        font-size: 30px;
+        padding: 8px;
+    }
+    .ofertas div div {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .ofertas div h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .boton {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+    .hero h4 {
+        font-size: 40px;
+        padding: 8px;
+    }
+    .hero div p {
+        font-size: 18px;
+    }
+    .ubicacion h4 {
+        font-size: 40px;
+        padding: 8px;
+    }
+    .mapa {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .grid-carniceria {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; /
+    }
+    .carniceria h2 {
+        font-size: 60px;
+        padding: 4%; 
+    }
+    .grid-carniceria .grid-item {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+    .grid-carniceria div img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .grid-carniceria {
+        grid-template-columns: repeat(1, 1fr); /
+    }
+    .carniceria h2 {
+        font-size: 40px;
+        padding: 3%; /* Ajuste del padding */
+    }
+    .grid-carniceria .grid-item {
+        width: 100%;
+        margin: 15px 0; 
+    }
+    
+}
+
