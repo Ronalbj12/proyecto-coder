@@ -1,0 +1,56 @@
+
+
+
+@media (max-width: 576px) {
+    .ofertas h2 {
+        font-size: 30px;
+        padding: 8px;
+    }
+    .ofertas div div {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .ofertas div h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .boton {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+    
+    .hero img{
+        font-size: 18px;
+        width: 330px;
+        height: 200px;
+    }
+    .ubicacion h4 {
+        font-size: 40px;
+        padding: 8px;
+    }
+    .mapa {
+        width: 340px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .grid-carniceria {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .carniceria h2 {
+        font-size: 40px;
+        padding: 3%; 
+    }
+    .grid-carniceria .grid-item {
+        width: 100%;
+        margin: 15px 0; 
+    }
+    .grid-carniceria div img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}

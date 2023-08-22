@@ -17,7 +17,7 @@ header nav div ul li{
     align-items: center;
 }
 
-header nav a{
+header nav h1 a{
     color: rgb(0, 195, 255);
     text-decoration: none;
 }
@@ -71,6 +71,7 @@ header nav a{
     font-size: 30px;
     font-weight: 900;
     padding: 5px;
+    align-items: center;
 }
 
 .hero{
@@ -108,7 +109,7 @@ header nav a{
     text-align: center;
 }
 
-.mapa{
+div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,11 +119,9 @@ header nav a{
     background-color: rgba(4, 14, 61, 0.671);
     display: flex;
     flex-direction: column;
-    
 }
 
 .opinion h4 {
-    
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -144,6 +143,13 @@ header nav a{
 
 /*!-------css carniceria------*/
 
+.carniceria h2 {
+    font-size: 60px;
+    color: rgb(18, 18, 194);
+    text-align: center;
+    background-color: black;
+    padding: 2%;
+}
 
 .grid-carniceria {
     background-color: rgb(83, 147, 151);
@@ -156,15 +162,9 @@ header nav a{
     align-items: center; 
 }
 
-.carniceria h2 {
-    font-size: 60px;
-    color: rgb(18, 18, 194);
-    text-align: center;
-    background-color: black;
-    padding: 2%;
-}
 
-.grid-carniceria .grid-item {
+
+.grid-carniceria div {
     border: 1px solid rgba(255, 11, 11, 0.973);
     width: 100%;
     height: auto; 
@@ -214,6 +214,7 @@ header nav a{
     color: white;
     margin: 40px;
 }
+
 
 .achuras div div img {
     width: 298px;
@@ -292,7 +293,7 @@ footer{
     padding: 30px;
 }
 
-footer .footer-contenedor{
+footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;

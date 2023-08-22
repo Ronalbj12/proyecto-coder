@@ -1,0 +1,26 @@
+footer{
+    background-color: rgb(80, 61, 9);
+    padding: 30px;
+    p{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h4{
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+        div{
+            a{
+                img{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+}

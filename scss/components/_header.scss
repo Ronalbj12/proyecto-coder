@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(23, 170, 207);
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    nav{
+        h1{
+            a{
+                color: rgb(0, 195, 255);
+                text-decoration: none;
+            }
+        }
+        div{
+            div{
+                ul{
+                    li{
+                        display: flex;
+                        align-items: center;
+                        a{
+                            color: rgb(0, 195, 255);
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

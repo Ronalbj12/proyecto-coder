@@ -1,0 +1,249 @@
+.ofertas{
+    h2{
+        font-size: 60px;
+        color: rgb(252, 252, 255);
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+    }
+    div{
+        background-color: rgb(67, 102, 102);
+        display: flex;
+        margin: 00px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div{
+            border: 1px solid black;
+            width: 300px;
+            height: 530px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            margin: 40px;
+            img{
+                width: 298px;
+                height:340px;
+            }
+            h3{
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+.boton{
+    text-decoration: none;
+    color: rgb(4, 39, 190);
+    background-color: rgb(14, 112, 224);
+    font-size: 40px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.hero{
+    background-color: rgb(116, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 60px;
+    padding: 12px;
+    margin: 00;
+    h4{
+        font-size: 40px;
+        text-align: center;
+    }
+    img{
+        display: flex;
+        align-self: center;
+        width: 990px;
+        height: 600px;
+    }
+}
+
+.ubicacion{
+    background-color: rgba(183, 183, 201, 0.616);
+    h4{
+        font-size: 60px;
+        color: brown;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.opinion{
+    background-color: rgba(4, 14, 61, 0.671);
+    display: flex;
+    flex-direction: column;
+    div{
+        h4{
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.fixed{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*!-------css carniceria------*/
+
+.carniceria{
+    h2{
+        font-size: 60px;
+        color: rgb(18, 18, 194);
+        text-align: center;
+        background-color: black;
+        padding: 2%;
+        }
+    div{
+        background-color: rgb(83, 147, 151);
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        gap: 30px;
+        justify-items: center;
+        align-items: center; 
+        div{
+            border: 1px solid rgba(255, 11, 11, 0.973);
+            width: 100%;
+            height: auto; 
+            text-align: center;
+            background-color: rgb(37, 33, 33);
+            color: white;
+            margin: 40px;
+            padding: 20px;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+/*-----css achuras------*/
+
+// Estilos para la sección de información de achuras
+.info-achuras {
+    p {
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        background-color: rgb(126, 70, 70);
+        padding: 12px;
+    }
+}
+
+// Estilos para la sección de achuras
+.achuras {
+    h2 {
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+    }
+
+    div {
+        background-color: rgb(99, 45, 45);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        div {
+            border: 1px solid black;
+            width: 300px;
+            height: 530px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 40px;
+            img {
+                width: 298px;
+                height: 340px;
+            }
+        }
+    }
+}
+
+
+/*----- css poleria ------*/
+
+.polleria{
+    h2{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+    }
+    div{
+        background-color: rgb(99, 45, 45);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div{
+            border: 1px solid black;
+            width: 300px;
+            height: 530px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 40px;
+            img{
+                width: 298px;
+                height: 340px;
+            }
+        }
+    }
+}
+
+/*------css embutidos------*/
+
+.cerdo{
+    h2{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+    }
+    div{
+        background-color: rgb(99, 45, 45);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div{
+            border: 1px solid black;
+            width: 300px;
+            height: 530px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 40px;
+            img{
+                width: 298px;
+                height: 340px;
+            }
+        }
+    }
+}
