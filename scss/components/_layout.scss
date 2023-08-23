@@ -23,6 +23,7 @@
             img{
                 width: 298px;
                 height:340px;
+                
             }
             h3{
                 margin-top: 25px;
@@ -47,7 +48,6 @@
 .hero{
     background-color: rgb(116, 64, 64);
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
@@ -60,11 +60,13 @@
     }
     img{
         display: flex;
-        align-self: center;
-        width: 990px;
-        height: 600px;
+        flex-direction: column;
+        margin: 50px;
+        width: 350px;
+        height: 300px;
     }
 }
+    
 
 .ubicacion{
     background-color: rgba(183, 183, 201, 0.616);
@@ -130,7 +132,7 @@
             text-align: center;
             background-color: rgb(37, 33, 33);
             color: white;
-            margin: 40px;
+            margin: 20px;
             padding: 20px;
             img{
                 max-width: 100%;
@@ -146,9 +148,8 @@
 .info-achuras {
     p {
         font-size: 60px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
-        background-color: rgb(126, 70, 70);
         padding: 12px;
     }
 }

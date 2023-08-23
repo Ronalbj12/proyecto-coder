@@ -323,8 +323,8 @@ footer div div a img{
 
 @media (max-width: 576px) {
     .ofertas h2 {
-        font-size: 30px;
-        padding: 8px;
+        font-size: 20px;
+        padding: 6px;
     }
     .ofertas div div {
         width: 100%;
@@ -375,3 +375,18 @@ footer div div a img{
     }
 }
 
+@media (max-width: 768px) {
+    .polleria h2 {
+        font-size: 40px;
+    }
+
+    .polleria div div {
+        width: 100%; /* Cambiar el ancho para adaptarse a la pantalla */
+        margin: 20px; /* Ajustar el margen */
+    }
+
+    .polleria div div img {
+        width: 100%; /* Cambiar el ancho de la imagen */
+        height: auto; /* Ajustar la altura proporcionalmente */
+    }
+    }
