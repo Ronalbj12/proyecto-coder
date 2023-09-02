@@ -126,18 +126,19 @@
         gap: 30px;
         justify-items: center;
         align-items: center; 
+        padding: 8%;
         div{
             border: 1px solid rgba(255, 11, 11, 0.973);
             width: 100%;
-            height: auto; 
+            height: 100%; 
             text-align: center;
             background-color: rgb(37, 33, 33);
             color: white;
             margin: 20px;
-            padding: 20px;
+            padding: 0px;
             img{
                 max-width: 100%;
-                height: auto;
+                height: 100%;
             }
         }
     }
@@ -249,3 +250,6 @@
         }
     }
 }
+
+/*------css contacto------*/
+

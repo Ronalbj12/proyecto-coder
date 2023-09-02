@@ -119,19 +119,20 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+  padding: 8%; }
   .carniceria div div {
     border: 1px solid rgba(255, 11, 11, 0.973);
     width: 100%;
-    height: auto;
+    height: 100%;
     text-align: center;
     background-color: #252121;
     color: white;
     margin: 20px;
-    padding: 20px; }
+    padding: 0px; }
     .carniceria div div img {
       max-width: 100%;
-      height: auto; }
+      height: 100%; }
 
 /*-----css achuras------*/
 .info-achuras p {
@@ -214,6 +215,7 @@ header {
       width: 298px;
       height: 340px; }
 
+/*------css contacto------*/
 footer {
   background-color: #503d09;
   padding: 30px; }
