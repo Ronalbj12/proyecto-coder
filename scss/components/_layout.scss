@@ -7,7 +7,7 @@
         padding: 12px;
     }
     div{
-        background-color: rgb(67, 102, 102);
+        background-color: gray;
         display: flex;
         margin: 00px;
         justify-content: space-around;
@@ -46,7 +46,7 @@
 }
 
 .hero{
-    background-color: rgb(116, 64, 64);
+    background-color: gray;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -66,48 +66,9 @@
         height: 300px;
     }
 }
-    
 
-.ubicacion{
-    justify-content: center;
-    background-color: rgba(183, 183, 201, 0.616);
-    h4{
-        font-size: 60px;
-        color: brown;
-        text-align: center;
-    }
-    div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
-.opinion{
-    background-color: rgba(4, 14, 61, 0.671);
-    display: flex;
-    flex-direction: column;
-    div{
-        h4{
-            color: rgb(0, 0, 0);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-}
-
-.fixed{
-    position: fixed;
-    bottom: 100px;
-    right: 50px;
-    img{
-        width: 50px;
-        height: 50px;
-    }
-}
-
-/*!-------css carniceria------*/
+/*!-------css-productos------*/
 
 .carniceria{
     h2{
@@ -118,7 +79,7 @@
         padding: 2%;
         }
     div{
-        background-color: rgb(83, 147, 151);
+        background-color: rgb(99, 45, 45);
         width: 100%;
         margin: 0 auto;
         display: grid;
@@ -144,19 +105,7 @@
     }
 }
 
-/*-----css achuras------*/
 
-// Estilos para la sección de información de achuras
-.info-achuras {
-    p {
-        font-size: 60px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 12px;
-    }
-}
-
-// Estilos para la sección de achuras
 .achuras {
     h2 {
         font-size: 60px;
@@ -189,8 +138,6 @@
 }
 
 
-/*----- css poleria ------*/
-
 .polleria{
     h2{
         font-size: 60px;
@@ -220,7 +167,6 @@
     }
 }
 
-/*------css embutidos------*/
 
 .cerdo{
     h2{
@@ -251,5 +197,164 @@
     }
 }
 
-/*------css contacto------*/
 
+//css-contacto//
+
+.contactanos{
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    div{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+        h1{
+            text-align: center;
+            font-size: 3em;
+            span{
+                color: red;
+            }
+        }
+        div{
+            box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+            padding: 1em;
+            div{
+                background: #222222;
+                form{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    p{
+                        margin: 0;
+                        padding: 1em;
+                        label{
+                            display: block;
+                        }
+                        input{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color: #fff;
+                            border-bottom: 1px solid #d63031;
+                        }
+                    }
+                    .block{
+                        grid-column: 1 / 3;
+                        button:hover,
+                        form:focus{
+                            background: #d63031;
+                            color: #fff;
+                            transition: background-color 1s ease-out;
+                            outline: 0;
+                        }
+                        button{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color: #fff;
+                            border-bottom: 1px solid #d63031;
+                        }
+                        textarea{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color: #fff;
+                            border-bottom: 1px solid #d63031;
+                        }
+                    }
+                }
+            }
+            div{
+                background: #000;
+                h4{
+                    text-align: center;
+                    margin: 0 0 1rem 0;
+                }
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    text-align: center;
+                    margin: 0 0 1rem 0;
+                }
+                p{
+                    text-align: center;
+                    margin: 0 0 1rem 0;
+                }
+            }
+        }
+    }   
+}
+
+//css-nosotros//
+
+.historia{
+    background-color: #f0f0f0; 
+    padding: 40px;
+    border-radius: 90px; 
+    margin: 20px;
+    h2{
+        color: #333;
+        text-align: center;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px; 
+        line-height: 1.6;
+        text-align: center;
+    }
+}
+
+.ubicacion{
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 90px;
+    h4{
+        font-size: 60px;
+        color: rgba(15, 68, 211, 0.651);
+        text-align: center;
+    }
+    p{
+        font-size: 26px; 
+        line-height: 1.6;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+//css-galeria//
+
+.galeria {
+    text-align: center;
+    margin: 20px;
+    background-color: #F0F8FF;
+    h2{
+        font-size: 60px;
+        color: rgb(252, 252, 255);
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 12px;
+    }
+    div{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+        margin: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
